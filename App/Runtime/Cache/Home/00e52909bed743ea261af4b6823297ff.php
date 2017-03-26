@@ -1,0 +1,197 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>首页</title>
+    <link href="/tp/Public/css/common.css" rel="stylesheet" type="text/css"/>
+    <link href="/tp/Public/css/reset.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+<!--top-->
+<div class="top-wrap">
+    <div class="top">
+        　  <div class="logo">
+        <a href="index.html">
+            <img src="/tp/Public/img/logo.png">
+        </a>
+    </div>
+        <ul class="nav">
+            <li><a href="index.html" class="nav-cur">首页</a></li>
+            <?php if(is_array($res)): $i = 0; $__LIST__ = $res;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><a href="product center.html"><?php echo ($vo["name"]); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+
+            <!--<li><a href="download center.html">下载中心</a></li>-->
+            <!--<li><a href="market guide.html">入市指南</a></li>-->
+            <!--<li><a href="news onformation.html">新闻资讯</a></li>-->
+            <!--<li><a href="account online.html">网上开户</a></li>-->
+            <!--<li><a href="contact us.html">关于我们</a></li>-->
+        </ul>
+    </div>
+</div>
+<!--banner-->
+<div class="flexslider">
+    <ul class="slides">
+        <li style="background:url(/tp/Public/img/img4.jpg) 50% 0 no-repeat;"></li>
+        <li style="background:url(/tp/Public/img/img2.jpg) 50% 0 no-repeat;"></li>
+        <li style="background:url(/tp/Public/img/img3.jpg) 50% 0 no-repeat;"></li>
+    </ul>
+</div>
+<!--Quotation figure-->
+<div class="figure">
+   <div class="t1">
+      <img src="/tp/Public/img/quote.png" />
+   </div>
+   <div id=announcement>
+        <iframe src="http://122.144.169.84:16906/tradeweb/hq/hqV_lb.jsp" width="1140" height="220" rameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no" allowtransparency="yes" style="padding:0;"></iframe>
+    </div>
+</div>
+<!--Product display-->
+<div class="product">
+   <div class="t1">
+      <img src="/tp/Public/img/product.png" />
+   </div>
+   <div class="pic">
+       <div id="demo5" class="scroll-img">
+           <ul>
+               <li><a href="#"><img src="image/tea_img1.jpg"></a>
+                   <div class="index-text">
+                       <a href="#"><p>远山印象普洱生茶</p></a>
+                   </div>
+               </li>
+               <li><a href="#"><img src="/tp/Public/img/tea_img9.jpg"></a>
+                   <div class="index-text">
+                       <a href="#"><p>远山印象普洱生茶</p></a>
+                   </div>
+               </li>
+               <li><a href="#"><img src="/tp/Public/img/tea_img3.jpg"></a>
+                   <div class="index-text">
+                       <a href="#"><p>远山印象普洱生茶</p></a>
+                   </div>
+               </li>
+               <li><a href="#"><img src="/tp/Public/img/tea_img4.jpg"></a>
+                   <div class="index-text">
+                       <a href="#"><p>远山印象普洱生茶</p></a>
+                   </div>
+               </li>
+               <li><a href="#"><img src="/tp/Public/img/tea_img5.jpg"></a>
+                   <div class="index-text">
+                       <a href="#"><p>远山印象普洱生茶</p></a>
+                   </div>
+               </li>
+               <li><a href="#"><img src="/tp/Public/img/tea_img6.jpg"></a>
+                   <div class="index-text">
+                       <a href="#"><p>远山印象普洱生茶</p></a>
+                   </div>
+               </li>
+               <li><a href="#"><img src="/tp/Public/img/tea_img7.jpg"></a>
+                   <div class="index-text">
+                       <a href="#"><p>远山印象普洱生茶</p></a>
+                   </div>
+               </li>
+               <li><a href="#"><img src="/tp/Public/img/tea_img8.jpg"></a>
+                   <div class="index-text">
+                       <a href="#"><p>远山印象普洱生茶</p></a>
+                   </div>
+               </li>
+
+           </ul>
+       </div>
+   </div>
+</div>
+<!--News information-->
+<div class="news">
+   <div class="t1">
+      <img src="/tp/Public/img/news.png" />
+   </div>
+   <div class="news-main">
+      <ul>
+         <li>
+            <h2>信息披露</h2>
+            <p> 根据季节来区分，茶可以分为春茶、夏茶和秋茶。古人有云：春茶苦，夏茶涩，要好喝，秋白露。古人认为秋茶是最好喝的，但其实秋茶的滋味和汤色介于春茶和夏茶之间。但是秋茶的香气非常浓郁，尤其以铁观音为代表。</p>
+            <span class="more">
+              <a href="#">more</a>
+            </span>
+         </li>
+         <li>
+            <h2>通知公告</h2>
+              <h3>
+                 <a href="#">关于“彩雲之南普洱生茶”复牌的公告</a>
+              </h3>
+              <span class="time">2017-2-9</span>
+              <h3>
+                 <a href="#">关于“彩雲之南普洱生茶”复牌的公告</a>
+              </h3>
+              <span class="time">2017-2-9</span>
+              <span class="line"></span>
+            
+         </li>
+         <li>
+            <h2>中心新闻</h2>
+            <p> 根据季节来区分，茶可以分为春茶、夏茶和秋茶。古人有云：春茶苦，夏茶涩，要好喝，秋白露。古人认为秋茶是最好喝的，但其实秋茶的滋味和汤色介于春茶和夏茶之间。但是秋茶的香气非常浓郁，尤其以铁观音为代表。</p>
+            <span class="more">
+              <a href="#">more</a>
+            </span>
+         </li>
+      </ul>
+   </div>
+</div>
+<!--partner-->
+<div class="partner">
+   <div class="t1">
+     <img  src="/tp/Public/img/partner.png" />
+   </div>
+   <ul>
+      <li><a href="#"><img src="/tp/Public/img/part_1.jpg"/></a></li>
+      <li><a href="#"><img src="/tp/Public/img/part_1.jpg"/></a></li>
+      <li><a href="#"><img src="/tp/Public/img/part_1.jpg"/></a></li>
+      <li><a href="#"><img src="/tp/Public/img/part_1.jpg"/></a></li>
+      <li><a href="#"><img src="/tp/Public/img/part_1.jpg"/></a></li>
+      <li class="no-margin"><a href="#"><img src="/tp/Public/img/part_1.jpg"/></a></li>
+   </ul>
+</div>
+<!--footer-->
+<div class="footer-wrap">
+   <div class="footer">
+      <ul>
+         <li class="tel">
+           <p>电话：010-1111111</p>
+         </li>
+         <li class="mail">
+           <p>邮箱：1@qq.com</p>
+         </li>
+         <li class="address">
+           <p>地址：昌平南环1号</p>
+         </li>
+      </ul>
+      <p class="copyright">Copyright © 2015-2018 谁用谁知道交易中心有限公司 版权所有 京ICP备11111111号-3 谁用谁知道交易中心运营服务平台</p>
+   </div>
+</div>  
+<script type="text/javascript" src="/tp/Public/js/jquery.min.js"></script>
+<script src="/tp/Public/js/jquery.flexslider-min.js"></script>
+<script src="/tp/Public/js/jquery.scrollbox.js"></script>
+<script>
+    $(function(){
+        $('.flexslider').flexslider({
+            directionNav: true,
+            pauseOnAction: false
+        });
+    });
+
+    $('#demo5').scrollbox({
+        direction: 'h',
+        distance: 300
+    });
+    $(function(){
+        $('#demo5 li').hover(function(){
+            $('.index-text',this).stop().animate({
+                bottom:"0"
+            });
+        },function(){
+            $('.index-text',this).stop().animate({
+                bottom:"-135px"
+            });
+        });
+    });
+</script>
+</body>
+</html>

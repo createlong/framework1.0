@@ -1,0 +1,29 @@
+<script type="text/javascript" src="__JS__/jquery.min.js"></script>
+<script src="__JS__/jquery.flexslider-min.js"></script>
+<script src="__JS__/jquery.scrollbox.js"></script>
+<script>
+    $(function(){
+        $('.flexslider').flexslider({
+            directionNav: true,
+            pauseOnAction: false
+        });
+    });
+
+    $('#demo5').scrollbox({
+        direction: 'h',
+        distance: 300
+    });
+    $(function(){
+        $('#demo5 li').hover(function(){
+            $('.index-text',this).stop().animate({
+                bottom:"0"
+            });
+        },function(){
+            $('.index-text',this).stop().animate({
+                bottom:"-135px"
+            });
+        });
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>首页</title>
+    <link href="__CSS__/common.css" rel="stylesheet" type="text/css"/>
+    <link href="__CSS__/reset.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+<!--top-->
+<div class="top-wrap">
+    <div class="top">
+        　  <div class="logo">
+        <a href="index.html">
+            <img src="__IMG__/logo.png">
+        </a>
+    </div>
+        <ul class="nav">
+            <li><a href="index.html" class="nav-cur">首页</a></li>
+            <volist name="res" id="vo">
+                <li><a href="product center.html">{$vo.name}</a></li>
+            </volist>
+
+            <!--<li><a href="download center.html">下载中心</a></li>-->
+            <!--<li><a href="market guide.html">入市指南</a></li>-->
+            <!--<li><a href="news onformation.html">新闻资讯</a></li>-->
+            <!--<li><a href="account online.html">网上开户</a></li>-->
+            <!--<li><a href="contact us.html">关于我们</a></li>-->
+        </ul>
+    </div>
+</div>

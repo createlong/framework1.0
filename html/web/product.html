@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>产品中心</title>
+     <link href="css/common.css" rel="stylesheet" type="text/css"/>
+     <link href="css/reset.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!--top-->
+<div class="top-wrap">
+  <div class="top">
+  　  <div class="logo">
+         <a href="index.html">
+            <img src="image/logo.png">
+         </a>
+      </div>
+      <ul class="nav">
+        <li><a href="index.html">首页</a></li>
+        <li><a  class="nav-cur" href="product center.html">产品中心</a></li>
+        <li><a href="download center.html">下载中心</a></li>
+        <li><a href="market guide.html">入市指南</a></li>
+        <li><a href="news onformation.html">新闻资讯</a></li>
+        <li><a href="account online.html">网上开户</a></li>
+        <li><a href="contact us.html">关于我们</a></li>
+     </ul>
+  </div>
+</div>
+<!--banner-->
+<div class="banner">
+    <img src="image/pro-banner.jpg"/>  
+</div>
+<!--pro-display-->
+<div class="display-main">
+     <div class="pro-title">
+         <p class="tit1">Boutique tea</p>
+         <ul>
+             <li class="left">
+                 <p>客至心常热</p>
+                 <p>羡阳春茶瑶草碧</p>
+             </li>
+             <li>
+                 <span>茶叶</span>
+             </li>
+             <li class="right">
+                 <p>人走茶不凉</p>
+                 <p>兰陵美酒郁金香</p>
+             </li>
+         </ul>
+     </div>
+    <div class="product-images">
+        <ul>
+            <li><a href="#"><img src="image/tea_img2.jpg"></a>
+                <div class="images-text">
+                    <a href="#"><p>远山印象普洱生茶</p></a>
+                </div>
+            </li>
+            <li><a href="#"><img src="image/tea_img2.jpg"></a>
+                <div class="images-text">
+                    <a href="#"><p>远山印象普洱生茶</p></a>
+                </div>
+            </li>
+            <li><a href="#"><img src="image/tea_img2.jpg"></a>
+                <div class="images-text">
+                    <a href="#"><p>远山印象普洱生茶</p></a>
+                </div>
+            </li>
+            <li><a href="#"><img src="image/tea_img2.jpg"></a>
+                <div class="images-text">
+                    <a href="#"><p>远山印象普洱生茶</p></a>
+                </div>
+            </li>
+            <li><a href="#"><img src="image/tea_img2.jpg"></a>
+                <div class="images-text">
+                    <a href="#"><p>远山印象普洱生茶</p></a>
+                </div>
+            </li>
+            <li><a href="#"><img src="image/tea_img2.jpg"></a>
+                <div class="images-text">
+                    <a href="#"><p>远山印象普洱生茶</p></a>
+                </div>
+            </li>
+            <li><a href="#"><img src="image/tea_img2.jpg"></a>
+                <div class="images-text">
+                    <a href="#"><p>远山印象普洱生茶</p></a>
+                </div>
+            </li>
+            <li><a href="#"><img src="image/tea_img2.jpg"></a>
+                <div class="images-text">
+                    <a href="#"><p>远山印象普洱生茶</p></a>
+                </div>
+            </li>
+            <li><a href="#"><img src="image/tea_img2.jpg"></a>
+                <div class="images-text">
+                    <a href="#"><p>远山印象普洱生茶</p></a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--footer-->
+<div class="footer-wrap">
+   <div class="footer">
+       <ul>
+           <li class="tel">
+               <p>电话：010-1111111</p>
+           </li>
+           <li class="mail">
+               <p>邮箱：1@qq.com</p>
+           </li>
+           <li class="address">
+               <p>地址：昌平南环1号</p>
+           </li>
+       </ul>
+       <p class="copyright">Copyright © 2015-2018 谁用谁知道交易中心有限公司 版权所有 京ICP备11111111号-3 谁用谁知道交易中心运营服务平台</p>
+   </div>
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script>
+    $(function(){
+        $('.product-images li').hover(function(){
+            $('.images-text',this).stop().animate({
+                bottom:"0"
+            });
+        },function(){
+            $('.images-text',this).stop().animate({
+                bottom:"-105px"
+            });
+        });
+    });
+</script>
+</body>
+</html>

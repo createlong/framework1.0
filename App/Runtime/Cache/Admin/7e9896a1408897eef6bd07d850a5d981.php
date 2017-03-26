@@ -1,0 +1,80 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="">
+  <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="">
+  <title>注册平台</title>
+  <!--jquery.js start-->
+  <script src="/tp/Public/js/jquery.js"></script>
+  <!--end-->
+  <!--引入bootstrap-->
+  <script src="/tp/Public/js/bootstrap.js"></script>
+  <link href="/tp/Public/css/bootstrap.min.css" rel="stylesheet">
+  <!--end-->
+  <!--引入bootstrap验证插件-->
+  <script src="/tp/Public/js/dist/js/bootstrapValidator.min.js"></script>
+  <link href="/tp/Public/js/dist/css/bootstrapValidator.min.css" rel="stylesheet" />
+  <!--[endif]-->
+</head>
+
+<body>
+<style>
+  .s_center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .is-right{
+    width:200px;
+    height:30px;
+    float:right;
+  }
+</style>
+<div class="s_center container col-lg-6 ">
+
+    <!--<form class="form-signin" enctype="multipart/form-data"  method="post">-->
+      <!--<h2 class="form-signin-heading">请注册</h2>-->
+      <!--<label class="sr-only">用户名</label>-->
+      <!--<input type="text"  class="form-control" name="username" placeholder="请填写用户名" required autofocus>-->
+      <!--<br />-->
+      <!--<label  class="sr-only">密码</label>-->
+      <!--<input type="password" name="password" id="inputPassword" class="form-control" placeholder="密码" required>-->
+      <!--<br />-->
+      <!--<label  class="sr-only">邮箱</label>-->
+      <!--<input type="password" name="email" id="inputEmail" class="form-control" placeholder="邮箱" required>-->
+        <!--<br />-->
+      <!--<button class="btn btn-lg btn-primary btn-block" type="button" onclick="login.check()">注册</button>-->
+    <!--</form>-->
+　　<form>
+  <h2 class="form-signin-heading">请注册</h2>
+  <div class="form-group">
+    <label class="sr-only">用户名</label>
+    <input type="text" class="form-control" name="username" placeholder="请填写用户名" required/>
+  </div>
+  <div class="form-group">
+    <label class="sr-only">邮箱</label>
+    <input type="text" class="form-control" name="email"  placeholder="邮箱" required/>
+  </div>
+  <div class="form-group">
+    <label class="sr-only">密码</label>
+    <input type="password" name="password" class="form-control" placeholder="密码" required>
+  </div>
+  <div class="form-group">
+    <button class="btn btn-lg btn-primary btn-block" type="button" onclick="login.signin()">注册</button>
+  </div>
+</form>
+</div> <!-- /container -->
+
+<script src="/tp/Public/js/dialog/layer.js"></script>
+<script src="/tp/Public/js/dialog.js"></script>
+
+<!--<script src="/tp/Public/js/admin/login.js"></script>-->
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+</body>
+<script src="/tp/Public/js/common.js"></script>
+<script src="/tp/Public/js/all.js"></script>
+</html>
